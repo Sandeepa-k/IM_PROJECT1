@@ -92,10 +92,7 @@ class BitcoinPayment implements PaymentMethod {
         return walletAddress != null && walletAddress.length() >= 26;
     }
 
-    @Override
-    public double calculateTransactionFee(double amount) {
-        return amount * 0.01; 
-    }
+    
 
     
     @Override
